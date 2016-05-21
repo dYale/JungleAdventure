@@ -4,18 +4,19 @@ using System.Collections;
 
 public class TextController : MonoBehaviour {
 
-	public Text text;
-	public Text menuText;
-	public Text luisPenis;
+	Text text;
+	Text menuText;
+	enum States {Welcome, Rules, Animals, Simulation, Custom}
 
 	// Use this for initialization
 	void Start () {
 		text.text = "Predator Vs. Prey - Who Will You Be";
-		menuText.text = "AJOSHD";
+		menuText.text = "Press Enter To Continue";
 	}
 	
 	// Update is called once per frame
 	void Update () {
+
 	}
 
 
